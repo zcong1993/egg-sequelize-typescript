@@ -1,10 +1,10 @@
 # @zcong/egg-sequelize-typescript
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
+<!-- [![build status][travis-image]][travis-url] -->
+<!-- [![Test coverage][codecov-image]][codecov-url] -->
+<!-- [![David deps][david-image]][david-url] -->
+<!-- [![Known Vulnerabilities][snyk-image]][snyk-url] -->
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/@zcong/egg-sequelize-typescript.svg?style=flat-square
