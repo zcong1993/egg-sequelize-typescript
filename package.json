@@ -1,0 +1,62 @@
+{
+  "name": "@zcong/egg-sequelize-typescript",
+  "version": "0.1.1",
+  "description": "sequelize typescript loader for egg.js",
+  "eggPlugin": {
+    "name": "sequelizeTypescript"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "sequelize": "^5.21.2",
+    "sequelize-typescript": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^4.28.7",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "lib",
+    "index.d.ts",
+    "app"
+  ],
+  "types": "index.d.ts",
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/@zcong/egg-sequelize-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/@zcong/egg-sequelize-typescript#readme",
+  "author": "zcong1993",
+  "license": "MIT"
+}
