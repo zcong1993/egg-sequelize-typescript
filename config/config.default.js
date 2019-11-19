@@ -7,5 +7,5 @@ exports.sequelizeTypescript = {
   port: 3306,
   username: 'root',
   password: '',
-  models: [__dirname + '/app/model'],
+  models: [__dirname + '/../app/model'],
 };

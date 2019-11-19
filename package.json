@@ -51,12 +51,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/@zcong/egg-sequelize-typescript.git"
+    "url": "git+https://github.com/zcong1993/egg-sequelize-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/zcong1993/egg-sequelize-typescript/issues"
   },
-  "homepage": "https://github.com/eggjs/@zcong/egg-sequelize-typescript#readme",
+  "homepage": "https://github.com/zcong1993/egg-sequelize-typescript#readme",
   "author": "zcong1993",
   "license": "MIT"
 }
