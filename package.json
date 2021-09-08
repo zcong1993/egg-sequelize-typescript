@@ -1,6 +1,6 @@
 {
   "name": "@zcong/egg-sequelize-typescript",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "sequelize typescript loader for egg.js",
   "eggPlugin": {
     "name": "sequelizeTypescript"
